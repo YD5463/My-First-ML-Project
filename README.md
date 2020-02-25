@@ -15,10 +15,10 @@ this part discuss about run supervised learning algorithm from scikit-learn libr
 
 my features to predict was:<br>
 
-**size** in megabytes of the app<br>
-**Type** that tells if app is paid or free(0 or 1)<br>
-general **Category** of the app(between 0 to 12)<br>
-**Content Rating** that tells the audience that fit to the app(teen, everyone etc.)<br>
+- **size** in megabytes of the app<br>
+- **Type** that tells if app is paid or free(0 or 1)<br>
+- general **Category** of the app(between 0 to 12)<br>
+- **Content Rating** that tells the audience that fit to the app(teen, everyone etc.)<br>
 
 and choose to ignore the **Rating** and **Reviews** features because we know at the end(when we also know the installs numbers).<br>
 
@@ -26,15 +26,25 @@ just to remind **The null hypothesis** was that all 3 states of success(great , 
 
 Part of my models shows good result:<br>
 
-**K-Nearest Neighbors** with 92% accuracy score<br>
-**Decision Tree** with 88% accuracy score (after k fold cross validation method(with 5 folds))<br>
-**Random Forest** with 88% accuracy score<br>
-**Gaussian Naive Bayes** with 84% accuracy score<br>
-**Support vector machines** with 91% accuracy score<br>
-**Adaptive Boosting** with 90% accuracy score<br>
+- **K-Nearest Neighbors** with 92% accuracy score and the value of K didn't make much of an impact<br>
 
-part of them shows really bad result:
+- **Decision Tree** with 88% accuracy score (after k fold cross validation method, with 5 folds)<br>
 
-**Logistic Regression** with 26% accuracy score<br>
-**Neural Network** with 39% accuracy score<br>
+- **Random Forest** with 88% accuracy score<br>
+
+- **Gaussian Naive Bayes** with 84% accuracy score<br>
+
+- **Support vector machines** with 91% accuracy score<br>
+
+- **Adaptive Boosting** with 90% accuracy score<br>
+
+  part of them shows really **bad result:**
+
+- **Logistic Regression** with 26% accuracy score<br>
+
+- **Neural Network** with 39% accuracy score<br>
+
+##### In conclusion:
+
+the most mistakes of the successful models was in classify between class 1(good app) and 2(successful  app)<br>
 
