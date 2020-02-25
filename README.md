@@ -44,7 +44,5 @@ Part of my models shows good result:<br>
 
 - **Neural Network** with 39% accuracy score<br>
 
-##### In conclusion:
-
-the most mistakes of the successful models was in classify between class 1(good app) and 2(successful  app)<br>
+***In conclusion:***  the most of the mistakes of the successful models was in classify between class 1(good app) and 2(successful  app).<br>
 
